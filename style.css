@@ -1,0 +1,80 @@
+
+/* SCHELETRO */
+html{
+    background-image: url(background.jpg);
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    font-family: 'Kanit', sans-serif;
+}
+
+body{
+    background: rgba(0, 0, 0, 0.40);
+    background-position: center;
+    padding: 50px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 3vh 5vw;
+}
+
+header{
+    text-align: center;
+    margin-top: 7vh;
+}
+
+menu{
+    background-color: #00DD00;
+    padding: 10px 0px;
+}
+
+main{
+    text-align: left;
+    color: white;
+}
+
+/* TAG */
+header > h1{
+    margin: 0px;
+    color: #00DD00;
+}
+
+p{
+    font-size: 16px;
+    margin: 0px;
+}
+
+/* CLASSI */
+.logo{
+   width: 200px;
+}
+
+.Monopattino{
+    display: inline;
+    font-size: 26px;
+}
+
+.Posizione::before{
+    content: "\21A6  "
+}
+
+.Stato{
+    background-color: rgb(222, 167, 65);
+    color: rgba(255, 255, 255, 0);
+    border-radius: 5px;
+    padding: 5px 0px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+    .Stato.a{
+        width: 20%;
+    }
+
+    .Stato.b{
+        width: 60%;
+    }
+
+    .Stato.c{
+        width: 32%;
+    }
